@@ -16,7 +16,7 @@
 }  
 
 .banner h2 {
-  font-size: 2.25em;
+  font-size: 4.5em;
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
   color: #ffffff;
@@ -30,7 +30,7 @@
   filter: blur(0);
   opacity: 1;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 2;

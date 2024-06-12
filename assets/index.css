@@ -1,0 +1,45 @@
+/* assets/index.css */  
+
+/* 主体容器样式 */  
+
+.container {  
+
+  max-width: 1200px;  
+
+  margin: 20px auto;  
+
+  padding: 20px;  
+
+  background-color: #fff;  
+
+  border-radius: 4px;  
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+
+}  
+
+  
+
+/* 横幅样式 */  
+
+.banner {  
+
+  text-align: center;  
+
+  padding: 20px 0;  
+
+  border-bottom: 1px solid #e0e0e0;  
+
+}  
+
+  
+
+.banner h2 {  
+
+  font-size: 20px;  
+
+  font-weight: bold;  
+
+  color: #333;  
+
+}

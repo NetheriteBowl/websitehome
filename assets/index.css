@@ -1,45 +1,42 @@
 /* assets/index.css */  
 
-/* 主体容器样式 */  
+/* 瀹瑰櫒 */  
 
-.container {  
-
-  max-width: 1200px;  
-
-  margin: 20px auto;  
-
-  padding: 20px;  
-
-  background-color: #fff;  
-
-  border-radius: 4px;  
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
-
+#container {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }  
 
-  
-
-/* 横幅样式 */  
-
-.banner {  
-
-  text-align: center;  
-
-  padding: 20px 0;  
-
-  border-bottom: 1px solid #e0e0e0;  
-
+.banner {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 14em 3em 12.375em 3em;
+  height: 90vh;
+  background: linear-gradient(to bottom, #202020, #1f4929); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }  
 
-  
+.banner h2 {
+  font-size: 2.25em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+  color: #ffffff;
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  transition-delay: 0.65s;
+  transform: translateX(0);
+  filter: blur(0);
+}
 
-.banner h2 {  
-
-  font-size: 20px;  
-
-  font-weight: bold;  
-
-  color: #333;  
-
+.banner p {
+  filter: blur(0);
+  opacity: 1;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  transition-delay: 0.8s;
+  transform: translateX(0);
 }

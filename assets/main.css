@@ -6,14 +6,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 body {  
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   color: #333;  
   line-height: 1.6;  
-  background-color: #f5f5f5; 
+  background-color: #bdbdbd;
 }
 
 /* 头 */  
@@ -23,14 +23,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  background-color: #000;
+  border-bottom: 1px solid #383737a4;
+  height: 10vh;
 }
 
 header h1 {
   font-size: 24px;
   font-weight: bold; 
-  color: #333;
+  color: #ffffff;
 }
 
 nav ul {
@@ -46,12 +47,25 @@ nav ul li a {
   display: block;
   padding: 5px 10px;
   text-decoration: none;
-  color: #666;
+  color: #c7c7c7;
   border-radius: 4px;
   transition: all 0.2s ease;
 }
 
 nav ul li a:hover {
-  background-color: #f0f0f0;
-  color: #000;
+  background-color: #3d3938;
+  color: #fff;
+}
+
+/* note控件封装 用法  class="note"  */
+.note {
+  margin: auto;
+  background-color: rgba(139, 202, 253, 0.938);
+  border-radius: 0.25rem;
+  border-left: 5px solid blue;
+  padding: 20px;
+  text-align: center;
+  text-rendering: optimizespeed;
+  box-shadow: 0 4px 8px #c4dff6;
+  max-width: 1200px;
 }
